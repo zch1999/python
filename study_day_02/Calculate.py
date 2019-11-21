@@ -1,4 +1,8 @@
-a=int(input('a='))
-
-print('%d + %d = %d' %(a,b,a+b))
-print('%d * %d = %d' %(b,b,a*b))
+x = float(input('x = '))
+if x > 1:
+    y = 3 * x - 5
+elif x >= -1:
+    y = x + 2
+else:
+    y = 5 * x + 3
+print('f(%.2f) = %.2f' % (x, y))
